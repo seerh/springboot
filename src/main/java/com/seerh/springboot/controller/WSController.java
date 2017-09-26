@@ -22,7 +22,7 @@ public class WSController {
     @SendTo("/topic/getResponse")
     public WSResponse say(WSMessage message) throws Exception {
         Thread.sleep(3000);
-        return new WSResponse("Welcome, " + message.getName() + "!");
+        return new WSResponse("Welcome1, " + message.getName() + "!");
     }
 
     @MessageMapping("/chat")
