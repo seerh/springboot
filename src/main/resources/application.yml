@@ -1,0 +1,24 @@
+#当前环境为开发环境
+spring:
+  profiles:
+    active: dev
+  mvc:
+    favicon:
+      enabled: false #关闭Favicon
+#启动时显示启动与未启动的自动配置
+#debug: false
+
+#logging:
+#  level:
+#    org.springframework: debug #该包下的日志级别
+#    root: info #日志级别
+
+#自定义配置
+book:
+  author: seerh
+  name: springboot
+author:
+  name: seerh
+  age: 30
+hello:
+  msg: hahahahahaha

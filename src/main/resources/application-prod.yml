@@ -1,0 +1,10 @@
+#生产环境
+
+#服务器端口
+server:
+  port: 9090
+
+#thymeleaf模板设置缓存
+spring:
+  thymeleaf:
+    cache: true
